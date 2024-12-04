@@ -57,7 +57,7 @@ function MostrarNav()
                         </h6>
                             <li class="nav-item">
                             Libros
-                                <a class="nav-link" href="../libros/listaLibros.php">
+                                <a class="nav-link" href="../productos/productos.php">
                                     <i class="ni ni-box-2 text-primary"></i>
                                     <span class="nav-link-text">Todos los libros</span>
                                 </a>
@@ -65,13 +65,13 @@ function MostrarNav()
                             if ($rol == 1) {
                                 echo '
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../libros/crearLibro.php">
+                                    <a class="nav-link" href="../productos/productosCrud.php">
                                         <i class="ni ni-box-2 text-primary"></i>
                                         <span class="nav-link-text">Agregr libro</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../libros/listaLibros.php">
+                                    <a class="nav-link" href="../productos/listaProductos.php">
                                         <i class="ni ni-box-2 text-primary"></i>
                                         <span class="nav-link-text">Lista de libros</span>
                                     </a>
@@ -86,7 +86,7 @@ function MostrarNav()
                             </h6>
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../categorias/categoriasCrud.php">
+                                    <a class="nav-link" href="../prestamos/prestamo.php">
                                         <i class="ni ni-bullet-list-67 text-primary"></i>
                                         <span class="nav-link-text">Lista de prestamos</span>
                                     </a>
@@ -133,23 +133,11 @@ function MostrarNav()
                         </h6>
                             <li class="nav-item">
                             Libros
-                                <a class="nav-link" href="../libros/listaLibros.php">
+                                <a class="nav-link" href="../productos/productos.php">
                                     <i class="ni ni-box-2 text-primary"></i>
                                     <span class="nav-link-text">Todos los libros</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="../libros/crearLibro.php">
-                                        <i class="ni ni-box-2 text-primary"></i>
-                                        <span class="nav-link-text">Agregr libro</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../libros/listaLibros.php">
-                                        <i class="ni ni-box-2 text-primary"></i>
-                                        <span class="nav-link-text">Lista de libros</span>
-                                    </a>
-                                </li>
                         </ul>
                     </div>
                 </div>
